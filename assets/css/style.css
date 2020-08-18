@@ -1975,7 +1975,7 @@ section {
 .c-article__title {
   font-family: var(--font-1);
   color: #fc3735;
-  background: -webkit-linear-gradient(left, #293bdf, #3a1ca7, #1b5baf);
+  background: -webkit-linear-gradient(left, #df2984, #df297e, #df2966);
   padding-bottom: 10px;
   background-size: 1600px 200px;
   background-clip: text;
@@ -2010,4 +2010,31 @@ section {
   100% {
       background-position: 1600px 0;
   }
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  font-size: 18px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
 }
