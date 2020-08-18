@@ -2038,3 +2038,9 @@ select {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
   margin-bottom: 30px;
 }
+
+/* Increasing the font size of the H4 in front of the image in About US section */
+
+.right-image-font {
+  font-size: 2.1rem;
+}
