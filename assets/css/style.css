@@ -1,19 +1,13 @@
-/**
-* Template Name: OnePage - v2.0.0
-* Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 
 /* Custom Font */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #444444;
 }
 
@@ -145,7 +139,7 @@ h6 {
   line-height: 1;
   font-weight: 300;
   letter-spacing: 0.5px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 #header .logo a {
@@ -188,7 +182,7 @@ h6 {
   color: #124265;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .nav-menu a:hover,
@@ -443,11 +437,11 @@ h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 56px;
+  font-size: 75px;
   font-weight: 700;
   line-height: 72px;
   color: #124265;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 #hero h2 {
@@ -492,7 +486,7 @@ h6 {
 #hero .icon-box .title {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #hero .icon-box .title a {
@@ -501,7 +495,7 @@ h6 {
 }
 
 #hero .icon-box .description {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -564,7 +558,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -614,7 +608,7 @@ section {
 }
 
 .about .content .btn-learn-more {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -670,7 +664,7 @@ section {
 # About Video
 --------------------------------------------------------------*/
 .about-video .content {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .about-video .content h3 {
@@ -1060,6 +1054,7 @@ section {
 --------------------------------------------------------------*/
 .cta {
   background: #2487ce;
+  background-image: linear-gradient(-225deg, #4aa77f 0%, #2ca4ab 48%, #104553 100%);
   background-size: cover;
   padding: 60px 0;
 }
@@ -1349,7 +1344,7 @@ section {
   font-size: 42px;
   color: #2487ce;
   font-weight: 500;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Inter', sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1409,6 +1404,8 @@ section {
 
 .pricing .featured {
   background: #2487ce;
+  background-image: linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%);
+  color: #eee;
 }
 
 .pricing .featured h3,
@@ -1525,7 +1522,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #2487ce;
+  color: #124265;
   float: left;
   width: 44px;
   height: 44px;
@@ -2046,5 +2043,7 @@ select {
 /* Increasing the font size of the H4 in front of the image in About US section */
 
 .right-image-font {
-  font-size: 2.1rem;
+  color: black;
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
 }
