@@ -4,7 +4,10 @@
 
 /* Custom Font */
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-
+@font-face {
+  font-family: 'TSB Serif';
+  src: url('../fonts/Tribune.otf');
+}
 
 body {
   font-family: 'Inter', sans-serif;
@@ -437,7 +440,7 @@ h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 75px;
+  font-size: 85px;
   font-weight: 700;
   line-height: 72px;
   color: #124265;
@@ -1979,7 +1982,7 @@ section {
 /* Gradient Colour Pattern */
 
 .c-article__title {
-  font-family: var(--font-1);
+  font-family: 'TSB Serif';
   color: #fc3735;
   background: -webkit-linear-gradient(left, #df2984, #df297e, #df2966);
   padding-bottom: 10px;
@@ -2172,4 +2175,8 @@ select {
 .pricing-item .pricing-footer {
   text-align: center;
   margin-top: 50px;
+}
+
+.header-font-tribune {
+  font-family: 'TSB Serif' !important;
 }
