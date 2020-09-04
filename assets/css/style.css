@@ -1061,8 +1061,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #2487ce;
-  background-image: linear-gradient(-225deg, #4aa77f 0%, #2ca4ab 48%, #104553 100%);
+  background: #124265;
   background-size: cover;
   padding: 60px 0;
 }
